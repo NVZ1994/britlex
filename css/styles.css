@@ -1,0 +1,163 @@
+:root {
+    --primary-objects-color: #263238;
+    --primary-black-color: #000000;
+    --accent-text-color: #8F95A5;
+    --primary-white-color: #ffffff;
+    --logo-color: #939393;
+    --numbers-color: #2A3246;
+    --freq-color: #546269;
+    --price-color: #263238;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--accent-text-color);
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-white-color);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-size: 36px;
+    line-height: 1.5;
+    color: var(--logo-color);
+}
+.logo::after {
+    position: absolute;
+    left: 8px;
+    content: "Brit";
+    color: var(--primary-black-color);
+    height: 40px;
+    overflow: hidden;
+}
+.nav-list {
+    color: var(--primary-objects-color);
+    font-weight: 500;
+    line-height: 1.5;
+}
+.nav-list .button {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: var(--primary-black-color);
+}
+.info .title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: var(--primary-black-color);
+}
+.info {
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--accent-text-color);
+}
+.info .button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 1.5;
+    color: var(--primary-white-color);
+    background-color: var(--primary-objects-color);
+}
+.skills {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--accent-text-color);
+}
+.skills > .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--primary-black-color);
+}
+.skills details {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--primary-white-color);
+    background-color: var(--primary-objects-color);
+}
+.skills .sub-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    color: var(--primary-objects-color);
+}
+.about {
+    line-height: 1.8;
+    color: var(--accent-text-color);
+}
+.about > .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--primary-black-color);
+}
+.about .number {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--numbers-color);
+}
+.about .value {
+    line-height: 1.5;
+    color: var(--accent-text-color);
+}
+.prising {
+    line-height: 1.8;
+    color: var(--accent-text-color);
+}
+.prising > .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--primary-black-color);
+}
+.prising .sub-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    color: var(--primary-objects-color);
+}
+.prising .price {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: var(--price-color);
+}
+.prising .freq {
+    font-size: 18px;
+    line-height: 1.5x;
+    text-align: center;
+    color: var(--freq-color);
+}
+.contacts {
+    line-height: 1.5;
+    color: var(--accent-text-color);
+}
+.contacts > .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--primary-black-color);
+}
+.contacts .button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--primary-white-color);
+    background-color: var(--primary-objects-color);
+}
+.terms {
+    font-size: 24px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+}
