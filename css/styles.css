@@ -26,14 +26,10 @@ a {
     line-height: 1.5;
     color: var(--logo-color);
 }
-.logo::after {
-    position: absolute;
-    left: 8px;
-    content: "Brit";
+span {
     color: var(--primary-black-color);
-    height: 40px;
-    overflow: hidden;
 }
+
 .nav-list {
     color: var(--primary-objects-color);
     font-weight: 500;
